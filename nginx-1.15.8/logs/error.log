@@ -1,0 +1,341 @@
+2019/06/18 16:29:11 [notice] 15396#36128: using the "select" event method
+2019/06/18 16:29:11 [notice] 15396#36128: nginx/1.15.8
+2019/06/18 16:29:11 [info] 15396#36128: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:29:11 [notice] 15396#36128: start worker processes
+2019/06/18 16:29:11 [notice] 15396#36128: start worker process 49644
+2019/06/18 16:29:11 [notice] 49644#27700: nginx/1.15.8
+2019/06/18 16:29:11 [info] 49644#27700: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:29:11 [notice] 49644#27700: create thread 48436
+2019/06/18 16:29:11 [notice] 49644#27700: create thread 3636
+2019/06/18 16:29:11 [notice] 49644#27700: create thread 45832
+2019/06/18 16:29:16 [notice] 8028#33996: using the "select" event method
+2019/06/18 16:29:16 [notice] 8028#33996: nginx/1.15.8
+2019/06/18 16:29:16 [info] 8028#33996: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:29:16 [notice] 8028#33996: start worker processes
+2019/06/18 16:29:16 [notice] 8028#33996: start worker process 1764
+2019/06/18 16:29:16 [notice] 1764#19908: nginx/1.15.8
+2019/06/18 16:29:16 [info] 1764#19908: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:29:16 [notice] 1764#19908: create thread 35904
+2019/06/18 16:29:16 [notice] 1764#19908: create thread 48100
+2019/06/18 16:29:16 [notice] 1764#19908: create thread 39096
+2019/06/18 16:29:22 [notice] 1764#35904: *1 "^" matches "/foo/go.html", client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:29:22 [notice] 1764#35904: *1 rewritten data: "/bar", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:29:22 [notice] 1764#35904: *1 "^" matches "/bar", client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:29:22 [notice] 1764#35904: *1 rewritten data: "/baz", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:29:22 [info] 1764#35904: *1 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:29:52 [notice] 1764#35904: *2 "^" matches "/foo/go.html", client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:29:52 [notice] 1764#35904: *2 rewritten data: "/bar", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:29:52 [notice] 1764#35904: *2 "^" matches "/bar", client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:29:52 [notice] 1764#35904: *2 rewritten data: "/baz", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:29:52 [error] 1764#35904: *2 directory index of "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/baz/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /baz/ HTTP/1.1", host: "localhost"
+2019/06/18 16:30:07 [info] 1764#35904: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:30:07 [info] 1764#35904: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:30:07 [error] 1764#35904: *2 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/user/index/echo/21323" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /user/index/echo/21323 HTTP/1.1", host: "localhost"
+2019/06/18 16:30:07 [error] 1764#35904: *2 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /user/index/echo/21323 HTTP/1.1", host: "localhost"
+2019/06/18 16:30:14 [error] 1764#35904: *2 directory index of "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/baz/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /baz/ HTTP/1.1", host: "localhost"
+2019/06/18 16:30:18 [info] 1764#35904: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:30:23 [error] 1764#35904: *2 directory index of "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/baz/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /baz/ HTTP/1.1", host: "localhost"
+2019/06/18 16:30:43 [info] 1764#35904: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:32:28 [notice] 1764#35904: *7 "^" matches "/foo/", client: 127.0.0.1, server: localhost, request: "GET /foo/ HTTP/1.1", host: "localhost"
+2019/06/18 16:32:28 [notice] 1764#35904: *7 rewritten data: "/bar", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo/ HTTP/1.1", host: "localhost"
+2019/06/18 16:32:28 [notice] 1764#35904: *7 "^" matches "/bar", client: 127.0.0.1, server: localhost, request: "GET /foo/ HTTP/1.1", host: "localhost"
+2019/06/18 16:32:28 [notice] 1764#35904: *7 rewritten data: "/baz", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo/ HTTP/1.1", host: "localhost"
+2019/06/18 16:32:42 [info] 1764#35904: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:32:42 [info] 1764#35904: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:34:59 [notice] 12344#7204: using the "select" event method
+2019/06/18 16:34:59 [notice] 12344#7204: nginx/1.15.8
+2019/06/18 16:34:59 [info] 12344#7204: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:34:59 [notice] 12344#7204: start worker processes
+2019/06/18 16:34:59 [notice] 12344#7204: start worker process 16412
+2019/06/18 16:34:59 [notice] 16412#36816: nginx/1.15.8
+2019/06/18 16:34:59 [info] 16412#36816: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:34:59 [notice] 16412#36816: create thread 12592
+2019/06/18 16:34:59 [notice] 16412#36816: create thread 27240
+2019/06/18 16:34:59 [notice] 16412#36816: create thread 10448
+2019/06/18 16:35:12 [notice] 16412#12592: *1 "^" matches "/foo", client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:35:12 [notice] 16412#12592: *1 rewritten data: "/bar", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:35:28 [info] 16412#12592: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:35:28 [info] 16412#12592: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:36:50 [notice] 12528#45400: using the "select" event method
+2019/06/18 16:36:50 [notice] 12528#45400: nginx/1.15.8
+2019/06/18 16:36:50 [info] 12528#45400: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:36:50 [notice] 12528#45400: start worker processes
+2019/06/18 16:36:50 [notice] 12528#45400: start worker process 48232
+2019/06/18 16:36:50 [notice] 48232#18868: nginx/1.15.8
+2019/06/18 16:36:50 [info] 48232#18868: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:36:50 [notice] 48232#18868: create thread 8056
+2019/06/18 16:36:50 [notice] 48232#18868: create thread 35768
+2019/06/18 16:36:50 [notice] 48232#18868: create thread 29964
+2019/06/18 16:36:55 [notice] 48232#8056: *1 "^/foo" does not match "/bar/", client: 127.0.0.1, server: localhost, request: "GET /bar/ HTTP/1.1", host: "localhost"
+2019/06/18 16:36:55 [notice] 48232#8056: *1 "^/foo" does not match "/bar/index.html", client: 127.0.0.1, server: localhost, request: "GET /bar/ HTTP/1.1", host: "localhost"
+2019/06/18 16:37:10 [info] 48232#8056: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:37:10 [info] 48232#8056: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 16:41:48 [notice] 39720#42676: using the "select" event method
+2019/06/18 16:41:48 [notice] 39720#42676: nginx/1.15.8
+2019/06/18 16:41:48 [info] 39720#42676: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:41:48 [notice] 39720#42676: start worker processes
+2019/06/18 16:41:48 [notice] 39720#42676: start worker process 19016
+2019/06/18 16:41:48 [notice] 19016#30836: nginx/1.15.8
+2019/06/18 16:41:48 [info] 19016#30836: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:41:48 [notice] 19016#30836: create thread 24672
+2019/06/18 16:41:48 [notice] 19016#30836: create thread 11268
+2019/06/18 16:41:48 [notice] 19016#30836: create thread 37992
+2019/06/18 16:41:51 [notice] 25744#34012: using the "select" event method
+2019/06/18 16:41:51 [notice] 25744#34012: nginx/1.15.8
+2019/06/18 16:41:51 [info] 25744#34012: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:41:51 [notice] 25744#34012: start worker processes
+2019/06/18 16:41:51 [notice] 25744#34012: start worker process 47968
+2019/06/18 16:41:51 [notice] 47968#10928: nginx/1.15.8
+2019/06/18 16:41:51 [info] 47968#10928: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:41:51 [notice] 47968#10928: create thread 47996
+2019/06/18 16:41:51 [notice] 47968#10928: create thread 43172
+2019/06/18 16:41:51 [notice] 47968#10928: create thread 41396
+2019/06/18 16:41:53 [notice] 43380#36712: signal process started
+2019/06/18 16:41:53 [notice] 25744#34012: reopening logs
+2019/06/18 16:41:53 [notice] 47968#10928: reopening logs
+2019/06/18 16:41:55 [notice] 38412#39068: using the "select" event method
+2019/06/18 16:41:55 [notice] 38412#39068: nginx/1.15.8
+2019/06/18 16:41:55 [info] 38412#39068: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:41:55 [notice] 38412#39068: start worker processes
+2019/06/18 16:41:55 [notice] 38412#39068: start worker process 33404
+2019/06/18 16:41:55 [notice] 33404#38596: nginx/1.15.8
+2019/06/18 16:41:55 [info] 33404#38596: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:41:55 [notice] 33404#38596: create thread 47972
+2019/06/18 16:41:55 [notice] 33404#38596: create thread 46620
+2019/06/18 16:41:55 [notice] 33404#38596: create thread 30084
+2019/06/18 16:42:07 [notice] 33404#47972: *1 "^/foo" matches "/foo/a.html", client: 127.0.0.1, server: localhost, request: "GET /foo/a.html HTTP/1.1", host: "localhost"
+2019/06/18 16:42:07 [notice] 33404#47972: *1 rewritten data: "/bar", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo/a.html HTTP/1.1", host: "localhost"
+2019/06/18 16:42:07 [info] 33404#47972: *1 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:42:15 [notice] 33404#47972: *2 "^/foo" matches "/foo", client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:42:15 [notice] 33404#47972: *2 rewritten data: "/bar", args: "", client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:42:15 [info] 33404#47972: *2 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:42:27 [notice] 27864#45024: using the "select" event method
+2019/06/18 16:42:27 [notice] 27864#45024: nginx/1.15.8
+2019/06/18 16:42:27 [info] 27864#45024: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:42:27 [notice] 27864#45024: start worker processes
+2019/06/18 16:42:27 [notice] 27864#45024: start worker process 11512
+2019/06/18 16:42:28 [notice] 11512#38548: nginx/1.15.8
+2019/06/18 16:42:28 [info] 11512#38548: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:42:28 [notice] 11512#38548: create thread 9872
+2019/06/18 16:42:28 [notice] 11512#38548: create thread 27348
+2019/06/18 16:42:28 [notice] 11512#38548: create thread 40580
+2019/06/18 16:42:33 [error] 11512#9872: *1 CreateFile() "C:/bar/" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:42:33 [error] 11512#9872: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:42:33 [info] 11512#9872: *1 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:43:20 [notice] 36720#39920: using the "select" event method
+2019/06/18 16:43:20 [notice] 36720#39920: nginx/1.15.8
+2019/06/18 16:43:20 [info] 36720#39920: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:43:20 [notice] 36720#39920: start worker processes
+2019/06/18 16:43:20 [notice] 36720#39920: start worker process 31588
+2019/06/18 16:43:20 [notice] 31588#36448: nginx/1.15.8
+2019/06/18 16:43:20 [info] 31588#36448: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:43:20 [notice] 31588#36448: create thread 16112
+2019/06/18 16:43:20 [notice] 31588#36448: create thread 11936
+2019/06/18 16:43:20 [notice] 31588#36448: create thread 43668
+2019/06/18 16:43:23 [error] 31588#16112: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/bar" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:43:23 [error] 31588#16112: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:43:23 [info] 31588#16112: *1 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:44:51 [error] 31588#16112: *2 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/bar" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:44:51 [error] 31588#16112: *2 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:44:51 [info] 31588#16112: *2 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:44:56 [notice] 26148#43428: using the "select" event method
+2019/06/18 16:44:56 [notice] 26148#43428: nginx/1.15.8
+2019/06/18 16:44:56 [info] 26148#43428: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:44:56 [notice] 26148#43428: start worker processes
+2019/06/18 16:44:56 [notice] 26148#43428: start worker process 47364
+2019/06/18 16:44:56 [notice] 47364#17044: nginx/1.15.8
+2019/06/18 16:44:56 [info] 47364#17044: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:44:56 [notice] 47364#17044: create thread 11148
+2019/06/18 16:44:56 [notice] 47364#17044: create thread 42844
+2019/06/18 16:44:56 [notice] 47364#17044: create thread 8004
+2019/06/18 16:44:59 [notice] 46736#29108: using the "select" event method
+2019/06/18 16:44:59 [notice] 46736#29108: nginx/1.15.8
+2019/06/18 16:44:59 [info] 46736#29108: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:44:59 [notice] 46736#29108: start worker processes
+2019/06/18 16:44:59 [notice] 46736#29108: start worker process 41996
+2019/06/18 16:44:59 [notice] 41996#37456: nginx/1.15.8
+2019/06/18 16:44:59 [info] 41996#37456: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:44:59 [notice] 41996#37456: create thread 29944
+2019/06/18 16:44:59 [notice] 41996#37456: create thread 24068
+2019/06/18 16:44:59 [notice] 41996#37456: create thread 9576
+2019/06/18 16:45:01 [error] 41996#29944: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/bar//go.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:45:01 [error] 41996#29944: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo/go.html HTTP/1.1", host: "localhost"
+2019/06/18 16:45:01 [info] 41996#29944: *1 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:45:04 [error] 41996#29944: *2 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/bar/" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:45:04 [error] 41996#29944: *2 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:45:04 [info] 41996#29944: *2 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:46:05 [notice] 20256#32596: using the "select" event method
+2019/06/18 16:46:05 [notice] 20256#32596: nginx/1.15.8
+2019/06/18 16:46:05 [info] 20256#32596: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:46:05 [notice] 20256#32596: start worker processes
+2019/06/18 16:46:05 [notice] 20256#32596: start worker process 50144
+2019/06/18 16:46:06 [notice] 50144#17412: nginx/1.15.8
+2019/06/18 16:46:06 [info] 50144#17412: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:46:06 [notice] 50144#17412: create thread 30300
+2019/06/18 16:46:06 [notice] 50144#17412: create thread 44560
+2019/06/18 16:46:06 [notice] 50144#17412: create thread 15256
+2019/06/18 16:46:09 [error] 50144#30300: *1 CreateFile() "C:/html/bar/" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:46:09 [error] 50144#30300: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:46:09 [info] 50144#30300: *1 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:46:48 [error] 50144#30300: *2 CreateFile() "C:/html/bar/" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:46:48 [error] 50144#30300: *2 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:46:48 [info] 50144#30300: *2 client 127.0.0.1 closed keepalive connection
+2019/06/18 16:46:50 [notice] 11464#42960: using the "select" event method
+2019/06/18 16:46:50 [notice] 11464#42960: nginx/1.15.8
+2019/06/18 16:46:50 [info] 11464#42960: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:46:50 [notice] 11464#42960: start worker processes
+2019/06/18 16:46:50 [notice] 11464#42960: start worker process 27440
+2019/06/18 16:46:50 [notice] 27440#12920: nginx/1.15.8
+2019/06/18 16:46:50 [info] 27440#12920: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 16:46:50 [notice] 27440#12920: create thread 13068
+2019/06/18 16:46:50 [notice] 27440#12920: create thread 23308
+2019/06/18 16:46:50 [notice] 27440#12920: create thread 15108
+2019/06/18 16:46:52 [crit] 27440#13068: *1 CreateFile() "C:\Users\huruipeng\Downloads
+ginx-1.15.8
+ginx-1.15.8\html\bar" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 16:46:52 [error] 27440#13068: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/50x.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo HTTP/1.1", host: "localhost"
+2019/06/18 17:50:14 [notice] 708#29060: using the "select" event method
+2019/06/18 17:50:14 [notice] 708#29060: nginx/1.15.8
+2019/06/18 17:50:14 [info] 708#29060: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 17:50:14 [notice] 708#29060: start worker processes
+2019/06/18 17:50:14 [notice] 708#29060: start worker process 13524
+2019/06/18 17:50:14 [notice] 13524#17956: nginx/1.15.8
+2019/06/18 17:50:14 [info] 13524#17956: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 17:50:14 [notice] 13524#17956: create thread 46140
+2019/06/18 17:50:14 [notice] 13524#17956: create thread 44780
+2019/06/18 17:50:14 [notice] 13524#17956: create thread 46868
+2019/06/18 17:50:35 [info] 13524#46140: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 17:50:35 [info] 13524#46140: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 17:50:58 [info] 13524#46140: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 17:53:12 [notice] 38824#22324: using the "select" event method
+2019/06/18 17:53:12 [notice] 38824#22324: nginx/1.15.8
+2019/06/18 17:53:12 [info] 38824#22324: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 17:53:12 [notice] 38824#22324: start worker processes
+2019/06/18 17:53:12 [notice] 38824#22324: start worker process 32168
+2019/06/18 17:53:12 [notice] 32168#11620: nginx/1.15.8
+2019/06/18 17:53:12 [info] 32168#11620: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 17:53:12 [notice] 32168#11620: create thread 13108
+2019/06/18 17:53:12 [notice] 32168#11620: create thread 41100
+2019/06/18 17:53:12 [notice] 32168#11620: create thread 23900
+2019/06/18 17:53:31 [info] 32168#13108: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 17:53:31 [info] 32168#13108: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 17:54:05 [notice] 32516#21404: using the "select" event method
+2019/06/18 17:54:05 [notice] 32516#21404: nginx/1.15.8
+2019/06/18 17:54:05 [info] 32516#21404: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 17:54:05 [notice] 32516#21404: start worker processes
+2019/06/18 17:54:05 [notice] 32516#21404: start worker process 44540
+2019/06/18 17:54:05 [notice] 44540#9644: nginx/1.15.8
+2019/06/18 17:54:05 [info] 44540#9644: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 17:54:05 [notice] 44540#9644: create thread 41848
+2019/06/18 17:54:05 [notice] 44540#9644: create thread 33316
+2019/06/18 17:54:05 [notice] 44540#9644: create thread 18200
+2019/06/18 17:54:22 [info] 44540#41848: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 17:54:22 [info] 44540#41848: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:02:01 [info] 44540#41848: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:02:01 [info] 44540#41848: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:02:10 [notice] 29040#12128: using the "select" event method
+2019/06/18 18:02:10 [notice] 29040#12128: nginx/1.15.8
+2019/06/18 18:02:10 [info] 29040#12128: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 18:02:10 [notice] 29040#12128: start worker processes
+2019/06/18 18:02:10 [notice] 29040#12128: start worker process 25516
+2019/06/18 18:02:10 [notice] 25516#22356: nginx/1.15.8
+2019/06/18 18:02:10 [info] 25516#22356: OS: 260200 build:9200, "", suite:100, type:1
+2019/06/18 18:02:10 [notice] 25516#22356: create thread 49864
+2019/06/18 18:02:10 [notice] 25516#22356: create thread 20032
+2019/06/18 18:02:10 [notice] 25516#22356: create thread 34004
+2019/06/18 18:02:22 [info] 25516#49864: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:02:23 [info] 25516#49864: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:02:35 [info] 25516#49864: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:02:43 [error] 25516#49864: *5 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/foo/"
+2019/06/18 18:02:43 [error] 25516#49864: *5 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/foo/"
+2019/06/18 18:02:52 [error] 25516#49864: *5 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo/s HTTP/1.1", host: "localhost"
+2019/06/18 18:02:59 [info] 25516#49864: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:02:59 [info] 25516#49864: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:03:51 [error] 25516#49864: *8 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/user/index/echo/21323" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /user/index/echo/21323 HTTP/1.1", host: "localhost"
+2019/06/18 18:03:51 [error] 25516#49864: *8 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /user/index/echo/21323 HTTP/1.1", host: "localhost"
+2019/06/18 18:04:04 [info] 25516#49864: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:04:04 [info] 25516#49864: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:21:11 [error] 25516#49864: *11 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /foo/s HTTP/1.1", host: "localhost"
+2019/06/18 18:21:41 [info] 25516#49864: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/06/18 18:21:41 [info] 25516#49864: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/07/26 19:59:34 [notice] 12972#12468: using the "select" event method
+2019/07/26 19:59:34 [notice] 12972#12468: nginx/1.15.8
+2019/07/26 19:59:34 [info] 12972#12468: OS: 260200 build:9200, "", suite:100, type:1
+2019/07/26 19:59:34 [notice] 12972#12468: start worker processes
+2019/07/26 19:59:34 [notice] 12972#12468: start worker process 13552
+2019/07/26 19:59:34 [notice] 13552#9244: nginx/1.15.8
+2019/07/26 19:59:34 [info] 13552#9244: OS: 260200 build:9200, "", suite:100, type:1
+2019/07/26 19:59:34 [notice] 13552#9244: create thread 7988
+2019/07/26 19:59:34 [notice] 13552#9244: create thread 11036
+2019/07/26 19:59:34 [notice] 13552#9244: create thread 9652
+2019/07/26 19:59:53 [error] 13552#7988: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/26 19:59:53 [error] 13552#7988: *1 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/26 20:00:14 [info] 13552#7988: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/07/26 20:00:57 [error] 13552#7988: *6 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.13.49.17, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.13.49.17", referrer: "http://10.13.49.17/"
+2019/07/26 20:00:57 [error] 13552#7988: *6 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 10.13.49.17, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.13.49.17", referrer: "http://10.13.49.17/"
+2019/07/26 20:01:13 [info] 13552#7988: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/07/26 20:03:01 [info] 13552#7988: *11 client closed connection while waiting for request, client: 10.13.49.17, server: 0.0.0.0:80
+2019/07/26 20:03:26 [info] 13552#7988: *12 client closed connection while waiting for request, client: 10.13.49.17, server: 0.0.0.0:80
+2019/07/26 20:06:37 [info] 13552#7988: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/07/26 20:06:37 [info] 13552#7988: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/07/26 20:11:20 [info] 13552#7988: *17 client closed connection while waiting for request, client: 10.13.49.17, server: 0.0.0.0:80
+2019/08/06 11:14:59 [notice] 29516#25948: using the "select" event method
+2019/08/06 11:14:59 [notice] 29516#25948: nginx/1.15.8
+2019/08/06 11:14:59 [info] 29516#25948: OS: 260200 build:9200, "", suite:100, type:1
+2019/08/06 11:14:59 [notice] 29516#25948: start worker processes
+2019/08/06 11:14:59 [notice] 29516#25948: start worker process 3536
+2019/08/06 11:15:00 [notice] 3536#30036: nginx/1.15.8
+2019/08/06 11:15:00 [info] 3536#30036: OS: 260200 build:9200, "", suite:100, type:1
+2019/08/06 11:15:00 [notice] 3536#30036: create thread 1032
+2019/08/06 11:15:00 [notice] 3536#30036: create thread 10024
+2019/08/06 11:15:00 [notice] 3536#30036: create thread 33652
+2019/08/06 11:15:04 [error] 3536#1032: *3 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/08/06 11:15:04 [error] 3536#1032: *3 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/08/06 11:25:06 [notice] 17968#10708: using the "select" event method
+2019/08/06 11:25:06 [notice] 17968#10708: nginx/1.15.8
+2019/08/06 11:25:06 [notice] 17968#10708: start worker processes
+2019/08/06 11:25:06 [notice] 17968#10708: start worker process 9676
+2019/08/06 11:25:06 [notice] 9676#20544: nginx/1.15.8
+2019/08/06 11:25:06 [notice] 9676#20544: create thread 34268
+2019/08/06 11:25:06 [notice] 9676#20544: create thread 13640
+2019/08/06 11:25:06 [notice] 9676#20544: create thread 22564
+2019/08/06 11:25:25 [error] 9676#34268: *3 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: wen.jd.com, request: "GET /favicon.ico HTTP/1.1", host: "wen.jd.com", referrer: "http://wen.jd.com/"
+2019/08/06 11:25:25 [error] 9676#34268: *3 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: wen.jd.com, request: "GET /favicon.ico HTTP/1.1", host: "wen.jd.com", referrer: "http://wen.jd.com/"
+2019/08/06 11:31:47 [error] 9676#34268: *8 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: wen.jd.com, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/08/06 11:31:47 [error] 9676#34268: *8 CreateFile() "C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/html/404.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: wen.jd.com, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/08/06 13:43:38 [emerg] 29944#30024: unknown directive "if($host" in C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/conf/conf.d/app.conf:5
+2019/08/06 13:44:39 [emerg] 4904#32016: unknown directive "if($host" in C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/conf/conf.d/app.conf:5
+2019/08/06 13:46:19 [emerg] 19912#852: unknown directive "if($host!='wen.jd.com')" in C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/conf/conf.d/app.conf:5
+2019/08/06 13:46:54 [emerg] 32820#7592: unknown "host!='wen.jd.com'" variable
+2019/08/06 13:47:22 [notice] 24684#2032: using the "select" event method
+2019/08/06 13:47:22 [notice] 24684#2032: nginx/1.15.8
+2019/08/06 13:47:22 [notice] 24684#2032: start worker processes
+2019/08/06 13:47:22 [notice] 24684#2032: start worker process 29300
+2019/08/06 13:47:22 [notice] 29300#10168: nginx/1.15.8
+2019/08/06 13:47:22 [notice] 29300#10168: create thread 25976
+2019/08/06 13:47:22 [notice] 29300#10168: create thread 33352
+2019/08/06 13:47:22 [notice] 29300#10168: create thread 8888
+2019/08/06 13:49:48 [notice] 10772#8784: using the "select" event method
+2019/08/06 13:49:48 [notice] 10772#8784: nginx/1.15.8
+2019/08/06 13:49:48 [notice] 10772#8784: start worker processes
+2019/08/06 13:49:48 [notice] 10772#8784: start worker process 23792
+2019/08/06 13:49:48 [notice] 23792#23168: nginx/1.15.8
+2019/08/06 13:49:48 [notice] 23792#23168: create thread 22464
+2019/08/06 13:49:48 [notice] 23792#23168: create thread 30636
+2019/08/06 13:49:48 [notice] 23792#23168: create thread 6248
+2019/08/06 13:51:57 [notice] 13756#24408: using the "select" event method
+2019/08/06 13:51:57 [notice] 13756#24408: nginx/1.15.8
+2019/08/06 13:51:57 [notice] 13756#24408: start worker processes
+2019/08/06 13:51:57 [notice] 13756#24408: start worker process 17792
+2019/08/06 13:51:57 [notice] 17792#21456: nginx/1.15.8
+2019/08/06 13:51:57 [notice] 17792#21456: create thread 33244
+2019/08/06 13:51:57 [notice] 17792#21456: create thread 20896
+2019/08/06 13:51:57 [notice] 17792#21456: create thread 6708
+2019/08/06 14:38:12 [notice] 24256#27756: using the "select" event method
+2019/08/06 14:38:12 [notice] 24256#27756: nginx/1.15.8
+2019/08/06 14:38:12 [notice] 24256#27756: start worker processes
+2019/08/06 14:38:12 [notice] 24256#27756: start worker process 34392
+2019/08/06 14:38:12 [notice] 34392#26612: nginx/1.15.8
+2019/08/06 14:38:12 [notice] 34392#26612: create thread 2332
+2019/08/06 14:38:12 [notice] 34392#26612: create thread 27536
+2019/08/06 14:38:12 [notice] 34392#26612: create thread 19900
