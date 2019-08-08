@@ -339,3 +339,4 @@ ginx-1.15.8\html\bar" failed (123: The filename, directory name, or volume label
 2019/08/06 14:38:12 [notice] 34392#26612: create thread 2332
 2019/08/06 14:38:12 [notice] 34392#26612: create thread 27536
 2019/08/06 14:38:12 [notice] 34392#26612: create thread 19900
+2019/08/07 08:59:00 [emerg] 21340#15248: unknown directive "echo" in C:\Users\huruipeng\Downloads\nginx-1.15.8\nginx-1.15.8/conf/conf.d/app-default.conf:8
